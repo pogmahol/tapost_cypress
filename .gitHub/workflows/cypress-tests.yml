@@ -34,6 +34,7 @@ jobs:
           npm install mochawesome --save-dev
 
 
+
       # Run Cypress tests using the existing script
       - name: Run Cypress Tests
         run: npm run run:second:test
